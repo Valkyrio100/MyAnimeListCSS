@@ -1,0 +1,179 @@
+/*--------------------------------Code not made by me--------------------------------*/
+/*Thanks to Shishio-kun*/
+/*https://myanimelist.net/forum/?topicid=1501171*/
+
+
+/* FOR MORE HELP SEE HERE:
+http://myanimelist.net/clubs.php?cid=19736 
+*/
+
+
+/* DISTANCE OF LIST FROM TOP 
+Increase or decrease the px amount to change the distance from the top. */
+.header {
+  padding-bottom: 400px;  
+}
+  
+
+/* CUSTOM BACKGROUND IMAGE SETTINGS*/
+body {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+/* HEADERS AND TABLE LINK FONT */
+a {
+color: black !important;
+font-family: arial;
+font-size: 110%
+}
+
+/* CATEGORY HEADER FONT */
+.list-unit .list-status-title .text {
+  color: black !important;
+  font-family: arial;
+}
+
+/* CATEGORY HEADER BACKGROUND COLOR */
+.list-unit .list-status-title {
+  background-color: transparent !important;
+}
+    
+/* LIST LINK FONT */    
+.list-table .list-table-data .data a{
+color: black !important;
+font-family: arial;
+}
+
+/* LIST NON-LINK FONT */    
+body{
+color: black !important; 
+font-family: arial;
+}
+
+/* TAGS EDIT FONT */     
+.list-table .list-table-data .tags .edit{
+color: black !important;
+font-family: arial;
+}
+
+/* LINK COLOR ON HOVER*/  
+a:hover,
+.list-table .list-table-data .data a:hover{
+color: rgba(0,100,187,1) !important;
+}
+
+
+
+
+/*BACKGROUND AND BORDER COLOR OF CATEGORY LINKS 
+The first number in the parenthesis is the amount of red (0-255).
+The second number in the parenthesis is the amount of green (0-255).
+The third number in the parenthesis is the amount of blue (0-255).
+The fourth number in the parenthesis is the amount of opacity (.0 to 1).
+*/
+.status-menu-container{
+  background-color: rgba(255,176,215,.9) !important;
+   border: 1px white solid !important;
+}
+
+
+/* BACKGROUND AND BORDER COLOR OF LIST 
+See BACKGROUND AND BORDER COLOR OF CATEGORY LINKS above for guide on using RGBA colors.
+*/
+.list-block{
+  background-color: rgba(159,210,255,.8) !important;
+   border: 1px white solid !important;
+   font-size: 120%
+}
+
+
+/*BACKGROUND COLOR OF ROWS ON HOVER 
+See BACKGROUND AND BORDER COLOR OF CATEGORY LINKS above for guide on using RGBA colors.
+*/
+tbody[class*="list-item"]:hover,
+.list-table tbody:nth-of-type(2n+1):hover {background-color:rgba(255,176,215,.5) !important;}
+
+
+
+/*OTHER CODES*/
+.list-table > tbody:nth-of-type(2n+1),
+.list-table, .list-container,  
+.list-table .list-table-header .header-title{
+  background-color: transparent !important;
+     border: 0 transparent solid !important;
+}
+.list-table .list-table-data .data{
+  border: 0 transparent solid !important;
+}
+.status-menu-container {
+    border-bottom: transparent 0 solid;
+}
+
+/*--------------------------------Code made by me--------------------------------*/
+
+/*Color of the left menu*/
+.list-menu-float .icon-menu {
+    background-color: pink;
+}
+
+/*Color of the menu when you hover over it*/
+.list-menu-float .icon-menu:not(.profile):hover {
+    background-color: rgba(159,210,255,1) !important;
+    width: 145px;
+}
+
+/*Color of the icons of the menu when hovering over them*/
+.list-menu-float .icon-menu:hover svg.icon {
+    fill: #7c48d2 !important;
+}
+
+/*Color of the text on the floating menu when hovering icons*/
+.list-menu-float .icon-menu .text {
+    color: #7c48d2 !important;
+}
+
+/*Color of text and background of settings options on the floating menu*/
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting,
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    background-color:  rgba(159,210,255,1) !important;
+    color: #7c48d2 !important;
+}
+
+/*Border of the menu*/
+.list-menu-float {
+    border: #7c48d2 1px solid !important;
+}
+
+/*Color of the username that own the list (only visible when logged out or not your list)
+If this is your list it will be the color of the word 'Your'*/
+.header .username {
+    color: pink !important;
+}
+
+/*Color of the link of MyAnimeList*/
+.header .header-menu a#header-menu-button {
+    color: rgba(159,210,255,1) !important;
+}
+
+/*Color of the links of Log in/Create a new account*/
+.header .header-menu .header-info a {
+    color: rgba(159,210,255,1) !important;
+}
+
+/*Color of the words like airing*/
+.list-block .content-status, .content-status, .rewatching, .rereading{
+    color: rgba(0,0,0,.4) !important;
+}
+
+/*Color of the word edit*/
+.list-block .data.tags a.edit {
+  color: rgba(0,0,0,.4) !important;
+}
+
+/*Color of the word edit when you hover over it*/
+.list-block .data.tags a.edit:hover {
+  color: #7c48d2 !important;
+}
