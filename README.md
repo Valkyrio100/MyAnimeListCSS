@@ -17,3 +17,5 @@ This guide and more on the original post: https://myanimelist.net/forum/?topicid
 
 If you notice something broken or unmodified dont doubt to contact me this way.
 If you want to make some small changes look into the CSS that ~~should~~ will be properly documented
+
+It's highly probable that the CSS code is a mess, so sorry beforehand.
