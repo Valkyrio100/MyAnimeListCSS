@@ -8,7 +8,7 @@ are credited on each CSS.
 Small guide on how to install them:
   1. Download the background and the cover image 
   2. Go to Account Settings -> List Style Design
-  3. Use the default theme for the list you want to edit and click on the image
+  3. Use the modern default theme for the list you want to edit and click on the image 
   4. Upload the background and the cover image
   5. Go to Add Custom CSS and paste the CSS file content there
   6. Press Save 
