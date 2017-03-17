@@ -177,3 +177,20 @@ If this is your list it will be the color of the word 'Your'*/
 .list-block .data.tags a.edit:hover {
   color: #7c48d2 !important;
 }
+
+/*Color of the text in the top menu*/
+.list-container .status-menu-container {
+    border-color: #7c48d2 !important;
+}
+/*Color of the text in the top menu*/
+.list-container .status-menu-container a{
+    color: black !important;
+}
+/*Color of the text in the top menu when hovering over it*/
+.list-container .status-menu-container a:hover{
+    color: #7c48d2 !important;
+}
+/*Color of the bar under the top menu*/
+.list-container .status-menu-container a::after{
+    background-color: #7c48d2 !important;
+}
