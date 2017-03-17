@@ -204,3 +204,17 @@ If this is your list it will be the color of the word 'Your'*/
 .list-container .list-block {
     border-color: #7c48d2 !important;
 }
+
+/*Hide the footer*/
+footer {
+  visibility: hidden;
+ }
+
+ /*Stylize the copyright message. If you don't want it to show up change inline -> none*/
+ footer #copyright {
+  display:inline;
+  border-style: solid;
+  border-width: .5px;
+  background-color: rgba(0,0,0,0.5);
+  visibility: visible;
+ }   
