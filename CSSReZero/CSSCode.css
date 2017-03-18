@@ -224,4 +224,10 @@ footer {
   visibility: visible;
  }   
 
+ /*Color and background of the stats bar*/
+ .list-block .list-stats{
+    background-color: pink !important;
+    color: black !important;
+}
+
 /*Made by Valkyrio100*/
