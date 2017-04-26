@@ -2,6 +2,84 @@
   padding-bottom: 450px;  
 }
 
+.list-menu-float {
+  left: -6%; !important
+  border: 2px solid;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  background-color: white;
+}
+
+.list-menu-float .icon-menu{
+  display: block; !important
+}
+
+.list-menu-float .profile {
+    left: 40%;
+    top: 1%;
+}
+
+.list-menu-float .quick-add  {
+    left: 65%;
+    top: -5%;
+}
+
+.list-menu-float .anime-list {
+    left: 77%;
+    top: 0%;
+}
+
+.list-menu-float .manga-list {
+    left: 65%;
+    top: 5%;
+}
+
+.list-menu-float .history {
+    left: 40%;
+    top: -1%;
+}
+
+.list-menu-float .export {
+    left: 15%;
+    top: -85%;
+}
+
+.list-menu-float form .logout {
+    visibility: hidden;
+}
+
+.list-menu-float .setting {
+    left: 15%;
+    top: -75%;
+}
+
 body {
+  background-color: yellow;
   background-size: cover; !important
+}
+
+.list-table .list-table-header .status, .list-table .list-item .status{
+  display:none; !important
+}
+
+/*Modify specific category tables*/
+.all_anime .list-table .list-item{
+  background-color: gray; !important
+}
+.watching .list-table .list-item{
+  background-color: gray; !important
+}
+.completed .list-table .list-item {
+  background-color: red; !important
+   
+}
+.onhold .list-table .list-item{
+  background-color: gray; !important
+}
+.dropped .list-table .list-item{
+  background-color: gray; !important
+}
+.plantowatch .list-table .list-item{
+  background-color: gray; !important
 }
