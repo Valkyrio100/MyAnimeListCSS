@@ -1,3 +1,5 @@
+/*Imagenes: http://imgur.com/a/rd0vX*/
+
 .header {
   padding-bottom: 450px;  
 }
@@ -70,6 +72,31 @@ body {
 .watching .list-table .list-item{
   background-color: gray; !important
 }
+/*DROPPED*/
+body[data-query*="4"]{
+    background-image: url("http://i.imgur.com/ciaYU7z.jpg") ; !important
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+/*COMPLETED*/
+body[data-query*="2"]{
+    background-image: url("http://i.imgur.com/HUsvuUe.jpg") ; !important
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+/*ALL*/
+body[data-query*="7"]{
+    background-image: url("http://i.imgur.com/SfDf1SJ.jpg") ; !important
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+/*CURRENTLY*/
+body[data-query*="1"]{
+    background-image: url("http://i.imgur.com/rXXOkaJ.jpg") ; !important
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+
 .completed .list-table .list-item {
   background-color: red; !important
    
