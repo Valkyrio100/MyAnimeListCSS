@@ -116,12 +116,12 @@ tbody[class*="list-item"]:hover,
 
 /*Color of the left menu*/
 .list-menu-float .icon-menu {
-    background-color: pink;
+    background-color: rgb(145, 88, 109);
 }
 
 /*Color of the menu when you hover over it*/
 .list-menu-float .icon-menu:not(.profile):hover {
-    background-color: rgba(159,210,255,1) !important;
+    background-color: rgb(145, 88, 109) !important;
     width: 145px;
 }
 
@@ -138,13 +138,13 @@ tbody[class*="list-item"]:hover,
 /*Color of text and background of settings options on the floating menu*/
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting,
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
-    background-color:  rgba(159,210,255,1) !important;
+    background-color:  rgb(145, 88, 109) !important;
     color: #7c48d2 !important;
 }
 
 /*Border of the menu*/
 .list-menu-float {
-    border: #7c48d2 1px solid !important;
+    border: rgb(58, 46, 74) 1px solid !important;
 }
 
 /*Color of the username that own the list (only visible when logged out or not your list)
@@ -184,7 +184,7 @@ If this is your list it will be the color of the word 'Your'*/
 
 /*Color of the border of the top menu*/
 .list-container .status-menu-container {
-    border-color: #7c48d2 !important;
+    border-color: rgb(58, 46, 74) !important;
 }
 /*Color of the text in the top menu*/
 .list-container .status-menu-container a{
@@ -196,7 +196,7 @@ If this is your list it will be the color of the word 'Your'*/
 }
 /*Color of the bar under the top menu*/
 .list-container .status-menu-container a::after{
-    background-color: #7c48d2 !important;
+    background-color: rgb(145, 88, 109) !important;
 }
 /*Color of the links on the table when hovering over them*/
 .list-container .list-block a:hover, .list-container .list-table .list-table-data a:hover {
@@ -204,7 +204,7 @@ If this is your list it will be the color of the word 'Your'*/
 }
 /*Color of the border of the table*/
 .list-container .list-block {
-    border-color: #7c48d2 !important;
+    border-color: rgb(58, 46, 74) !important;
 }
 
 /*Hide the footer*/
@@ -222,7 +222,7 @@ footer {
  
  /*Color and background of teh stats bar*/
  .list-block .list-stats{
-    background-color: pink !important;
+    background-color: rgb(145, 88, 109) !important;
     color: black !important;
 }
 
