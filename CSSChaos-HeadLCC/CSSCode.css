@@ -75,7 +75,7 @@ The third number in the parenthesis is the amount of blue (0-255).
 The fourth number in the parenthesis is the amount of opacity (.0 to 1).
 */
 .status-menu-container{
-  background-color: rgba(255,176,215,.9) !important;
+  background-color: #ffe7e7 !important;
    border: 1px white solid !important;
 }
 
@@ -116,41 +116,47 @@ tbody[class*="list-item"]:hover,
 
 /*Color of the left menu*/
 .list-menu-float .icon-menu {
-    background-color: rgb(145, 88, 109);
+    background-color: #ffe7e7;
 }
 
 /*Color of the menu when you hover over it*/
 .list-menu-float .icon-menu:not(.profile):hover {
-    background-color: rgb(145, 88, 109) !important;
+    background-color: #fbcbd7 !important;
     width: 145px;
 }
 
 /*Color of the icons of the menu when hovering over them*/
 .list-menu-float .icon-menu:hover svg.icon {
-    fill: #7c48d2 !important;
+    fill: #cf526c !important;
 }
 
 /*Color of the text on the floating menu when hovering icons*/
 .list-menu-float .icon-menu .text {
-    color: #7c48d2 !important;
+    color: #cf526c !important;
 }
 
 /*Color of text and background of settings options on the floating menu*/
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting,
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
-    background-color:  rgb(145, 88, 109) !important;
-    color: #7c48d2 !important;
+    background-color:  #fbcbd7 !important;
+    color: #cf526c !important;
 }
 
 /*Border of the menu*/
 .list-menu-float {
-    border: rgb(58, 46, 74) 1px solid !important;
+    border: #f4bd85 1px solid !important;
 }
 
 /*Color of the username that own the list (only visible when logged out or not your list)
 If this is your list it will be the color of the word 'Your'*/
+.header {
+      text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
 .header .username {
     color: pink !important;
+}
+.header-title {
+   visibility: hidden;
 }
 
 /*Color of the link of MyAnimeList*/
@@ -184,7 +190,7 @@ If this is your list it will be the color of the word 'Your'*/
 
 /*Color of the border of the top menu*/
 .list-container .status-menu-container {
-    border-color: rgb(58, 46, 74) !important;
+    border-color: #f4bd85 !important;
 }
 /*Color of the text in the top menu*/
 .list-container .status-menu-container a{
@@ -204,7 +210,7 @@ If this is your list it will be the color of the word 'Your'*/
 }
 /*Color of the border of the table*/
 .list-container .list-block {
-    border-color: rgb(58, 46, 74) !important;
+    border-color: #f4bd85 !important;
 }
 
 /*Hide the footer*/
